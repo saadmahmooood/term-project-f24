@@ -7,7 +7,7 @@ jobs:
   ci-production-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Chekcout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           ref: ${{github.ref}}
